@@ -64,3 +64,21 @@
     display: block;
     margin-top: 20px;
 }
+.gitHub {
+    text-decoration: dashed whitesmoke;
+    border: solid 2px orange;
+    margin-top: 10%;
+    background-color: rebeccapurple;
+    color: wheat;
+}
+.Pages {
+    text-decoration: dashed whitesmoke;
+    border: solid 2px orange;
+    margin-top: 10%;
+    background-color: rebeccapurple;
+    color: wheat;
+}
+.gitHub:hover, .Pages:hover {
+    transition: 1.03s ease-in-out;
+    background-color: slateblue;
+}
