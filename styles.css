@@ -19,8 +19,43 @@
     background-color: #476b83;
 }
 .cool_big_board {
-    border: 10px solid navy;
+    border: 5px solid navy;
     text-align: center;
     top: 40%;
     margin-top: 20%;
+}
+
+@media (max-width: 768px) {
+    .image-To_contain_the_fun {
+        padding: 5px;
+    }
+
+    .Click_me_crazy{
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-To_contain_the_fun {
+        max-width: 100%;
+    }
+
+    .Click_me_crazy {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .Click_me_crazy {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+}
+
+
+.Very_end {
+    margin: fixed;
+    text-align: end;
 }

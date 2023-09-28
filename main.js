@@ -8,14 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch(apiUrl)
             .then((response) => response.json())
             .then((data) => {
-                if (data.joke) {
-                    outputDiv.innerHTML = `<p>${data.joke}</p>`;
-                } else {
-                    outputDiv.innerHTML = `<p>No joke found. Your'e not funny</p>`;
-                }
+                const jokeSentence = `${data.setup} ${data.delivery}`;
+                outputDiv.innerHTML = `<p>${jokeSentence}</p>`;
             })
             .catch((error) => {
                 console.error("Error fetching data:", error);
+                outputDiv.innerHTML = `<p>An error occurred while fetching the data. Please try again later.</p>`;
             });
     });
 });
