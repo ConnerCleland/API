@@ -6,11 +6,9 @@
     margin-left: 45%;
     padding: 15px 30px;
     background-color: #3498db;
-    color: #fff;
+    color: snow;
     font-size: 18px;
-    border: none;
     border-radius: 5px;
-    cursor: pointer;
     box-shadow: 0 4px 6px rgba(5, 256, 60, 5);
     transition: background-color 1.3s ease;
 }
@@ -21,8 +19,8 @@
 .cool_big_board {
     border: 5px solid navy;
     text-align: center;
-    top: 40%;
-    margin-top: 20%;
+    margin: 10%;
+    padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -56,6 +54,13 @@
 
 
 .Very_end {
-    margin: fixed;
-    text-align: end;
+    text-align: center;
+    margin: 10% auto;
+    word-spacing: 10px;
+}
+
+#fetchDataButton {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
 }
